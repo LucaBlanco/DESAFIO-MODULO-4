@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static('public'));
 
 //llamando archivos .html
-app.get('/', (req, res) => {res.sendFile(path.resolve(__dirname, './views/index.html'))});
+app.get('/', (req, res) => {res.sendFile(path.resolve(__dirname, './views/home.html'))});
 
 
 
