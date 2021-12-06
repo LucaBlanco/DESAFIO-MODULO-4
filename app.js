@@ -4,12 +4,10 @@ const path = require('path');
 
 const app = express();
 
-app.use(express.static('public'));
+app.use('static', express.static(__dirname + 'public'));
 
 //llamando archivos .html
-app.get('/', (req, res) => {res.sendFile(path.resolve(__dirname, './views/home.html'))});
-
-
+app.get('/', (req, res) => {res.sendFile(path.resolve(__dirname, './view/home.html'))});
 
 
 //iniciando servidor en puerto:
