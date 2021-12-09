@@ -7,6 +7,13 @@ body{
 
 h2{font-size: 24px;}
 
+.burger-menu{color: white; font-size: 30px; background-color: blue; margin-left: 46%; margin-right: 45%; margin-bottom: 2%;}
+
+
 .precios{font-size: 18px;}
 .descuentos{font-size: 16px;}
 .descripciones{font-size: 16px;}
+
+.fin-seccion{margin-bottom: 60px;}
+
+.img-pie{margin-bottom: 10px; font-size: 2em;}
