@@ -1,4 +1,5 @@
-header{background-color: yellow;}
+header{background-color: yellow;
+        padding: 2px;}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -7,7 +8,15 @@ body{
 
 h2{font-size: 24px;}
 
-.burger-menu{color: white; font-size: 30px; background-color: blue; margin-left: 46%; margin-right: 45%; margin-bottom: 2%;}
+.burger-menu{color: white; 
+    font-size: 30px; 
+    background-color: blue; 
+    width: 35px;
+    height: 35px ;
+    padding: 2px; 
+    margin: auto; 
+    margin-bottom: 3px;
+    box-sizing: border-box;}
 
 
 .precios{font-size: 18px;}
@@ -17,3 +26,10 @@ h2{font-size: 24px;}
 .fin-seccion{margin-bottom: 60px;}
 
 .img-pie{margin-bottom: 10px; font-size: 2em;}
+
+footer{
+    border-top: 1px solid black;
+    padding: 15px 5px 5px 5px;
+
+    box-sizing: border-box;
+}
