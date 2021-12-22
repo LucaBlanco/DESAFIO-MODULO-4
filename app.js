@@ -13,6 +13,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 //llamando archivos .html
 app.get('/', (req, res) => {res.sendFile(path.resolve(__dirname, './view/home.html'))});
 
+app.get('/registro', (req, res) => {res.sendFile(path.resolve(__dirname, './view/register.html'))});
+
 
 
 //iniciando servidor en puerto:

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>mercado liebre</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    rel="stylesheet" />
+       <link rel="normalize" href="/public/css/normalize.css">
+        <link rel="stylesheet" href="/css/styles.css">
+
+    </head>
+<body>
+
+<header>
+    <header>
+        <img src="/images/logo-mercado-liebre.svg" width="250" alt="MERCADO LIEBRE">
+        
+        <form method="get" action="https://www.google.com/search" target="_blank">
+            <input type="search" name="q" placeholder="Buscar productos, marcas" autofocus required>
+            <i class="fa fa-search"></i>
+            </form>
+</header>
+
+<main>
+    <form action="/registro" method="POST">
+    <h3><label for="nombre-apellido">NOMBRE Y APELLIDO</label></h3>
+        <input type="text" name="nombre-apellido" id="nombre-apellido">
+    
+
+    <h3><label for="nombre-usuario">NOMBRE DE USUARIO</label></h3>
+        <input type="text" name="nombre-usuario" id="nombre-usuario">
+    
+
+    <h3><label for="fecha-nacimiento">FECHA DE NACIMIENTO  </label></h3>
+        <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" min="1900-01-01">
+  
+
+    <h3><label for="domicilio">DOMICILIO </label></h3>
+        <input type="text" name="domicilio" id="domicilio">
+   
+
+        <h3>¿QUE DESEA HACER CON SU CUENTA?</h3>
+        <input type="radio" name="perfil" id="comprar" value="comprar">
+        <label for="comprar"> Comprar</label>
+        <input type="radio" name="perfil" id="vender" value="vender">
+        <label for="vender"> Vender</label>
+
+    <h3>CATEGORIAS DE INTERÉS</h3>
+    <label>
+    <p><input type="checkbox" name="interes" value="Electro">Electro</p>
+    <p><input type="checkbox" name="interes" value="Moda">Moda</p>
+    <p><input type="checkbox" name="interes" value="Hogar">Hogar</p>
+    <p><input type="checkbox" name="interes" value="Juguetería">Juguetería</p>
+    <p><input type="checkbox" name="interes" value="Vida Sana">Vida Sana</p>
+    </label> 
+
+    <h3>FOTO DE PERFIL</h3>
+    <input type="file" name="foto-de-perfil" accept=".jpg, .png">
+
+    <h3>CONTRASEÑA</h3>
+    <input type="password" name="contraseña">
+    <H3>CONFIRMAR CONTRASEÑA</H3>
+    <input type="password" name="confirmar">
+
+    <p><input type="submit" value="enviar">     <a href="/" target="_parent"><button>inicio</button></a>
+
+</form>
+
+
+</main>
+</body>
+
+
+
+    </html>
